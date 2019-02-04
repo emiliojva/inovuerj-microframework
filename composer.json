@@ -2,6 +2,7 @@
     "name": "emiliojva/framework-inovuerj",
     "description": "MicroFramework para atender demandas de projetos curtos, do Departamento de Inovação da UERJ. Inovuerj",
     "homepage": "http://inovuerj.sr2.uerj.br",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Emilio Vieira",
