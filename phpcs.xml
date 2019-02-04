@@ -1,0 +1,10 @@
+<?xml version="1.0"?><!-- PHPCodeSniffer Configura um padrão, para que nao seja mais necessário passar paramentros para o phpcs ou phpcbf -->
+<ruleset name="PHP_CodeSniffer">
+
+    <description>The coding standard for PHP_CodeSniifer ifself</description>
+
+    <file>src</file>
+
+    <rule ref="PSR2"/>
+
+</ruleset>

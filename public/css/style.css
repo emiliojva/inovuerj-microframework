@@ -1,0 +1,315 @@
+/********/
+/*Header*/
+/********/
+
+header.demo-header {
+    /*line bottom */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+
+    /* Color Backgroud header - middle blue */
+    background-color: #131958 !important;
+}
+
+header.demo-header .mdl-layout__header-row > .mdl-layout-title {
+    /*Title*/
+    color: #fff;
+}
+
+header.demo-header .mdl-layout__drawer-button .material-icons {
+    /*Hamburguer Button*/
+    color: #fff !important;
+}
+
+header.demo-header .mdl-color-text--grey-600 {
+    color: #757575 !important;
+}
+
+header.demo-header .mdl-button--icon {
+    color: white;
+}
+
+header.demo-header .mdl-textfield__input {
+    color: white;
+}
+
+/**********/
+/*Side Bar*/
+/*********/
+div.demo-drawer .demo-drawer-header {
+    /*fundo da logo*/
+    background-color: #131958 !important;
+    height: auto;
+}
+
+div.demo-drawer .logo {
+    /*Bandeira*/
+    margin: 0px auto;
+    display: block;
+    max-width: 100%;
+}
+
+div.demo-drawer nav.demo-navigation {
+    /*Fundo das legendas*/
+    background-color: #ecf0f1 !important;
+    /*border-right-width: 1px;*/
+    /*border-right-style: solid;*/
+    /*border-right-color: white;*/
+}
+
+div.demo-drawer .demo-navigation .mdl-navigation__link {
+    /*font color legendas */
+    /*color: #131958 !important;*/
+    color: #131958;
+}
+
+div.demo-drawer .demo-navigation .mdl-navigation__link:hover {
+    background-color: #131958;
+    color: #fff !important;
+}
+
+/****************/
+/* MAIN CONTENT */
+/****************/
+main.mdl-layout__content {
+    background-color: #f5f5f5 !important;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: white;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    /*Fixed Button - Ver estado*/
+    background: #131958;
+}
+
+/****************/
+/* MAP CONTENT */
+/****************/
+#map {
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgb(229, 227, 223);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/****************/
+/* ADMIN        */
+/****************/
+main.admin #map_admin {
+    position: relative;
+    height: 450px;
+    background: #ccc;
+}
+
+main.admin .campo-pesquisar {
+    padding: 0px;
+
+}
+
+main.admin .campo-pesquisar input {
+    height: 100%;
+    font-size: 14px;
+    color: #131958;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+main.admin .gm-style-iw div {
+    /*padding-bottom: 20px;*/
+}
+
+main.admin .gm-style-iw form {
+    display: block;
+    /* background: #005b9f; */
+    color: #000;
+    width: 100%;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+main.admin .gm-style-iw form input {
+    display: block;
+    background: #ccc;
+    color: #fff;
+    width: 400px;
+    margin: 0 0 5px 0;
+}
+
+.marcadorAncestral {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.marcadorAzul {
+    background-color: #131958;
+    color: #fff !important;
+}
+
+/* Subcategorias */
+
+.subcategoria {
+    display: none;
+}
+
+/*Scroll Barra Lateral*/
+.demo-drawer {
+    overflow-x: hidden !important;
+}
+
+#view-source {
+    /*position: fixed;*/
+    /*display: block;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*margin-right: 40px;*/
+    /*margin-bottom: 40px;*/
+    /*z-index: 900;*/
+    /*right: 20px;*/
+    float: right;
+}
+
+/****************/
+/* DIALOGS */
+/****************/
+.dialog_full {
+
+    top: 0;
+    max-width: 99%;
+    padding: 0px;
+    /* max-height: 98%; */
+    height: 99%;
+    width: 100%;
+
+}
+
+.demo-textfield__textfield-floating-text .mdl-textfield {
+    width: 100px;
+}
+
+.demo-textfield__textfield-multi-line .mdl-textfield {
+    width: 100px;
+}
+
+#form_porfolio .mdl-textfield {
+    /*padding: 20px 0 0 0;*/
+    /*margin-top :-22px;*/
+}
+
+.cadastrar-portfolio {
+    padding-bottom: 0px !important;
+}
+
+.table-clonar-unidades thead {
+    display: block;
+}
+
+.table-clonar-unidades tbody {
+    overflow: auto;
+    height: 168px;
+    display: block;
+    width: auto;
+}
+
+.table-clonar-unidades tr > td:nth-of-type(2) {
+    width: 100%;
+}
+
+.mdl-dialog__title {
+    line-height: 1.1em;
+    background: #131958;
+    color: #fff;
+    padding: 10px;
+}
+
+.dialogMSGBOX {
+    min-width: 60%;
+    max-width: 90%;
+}
+
+/***************************/
+/*Accordions inside Dialogs*/
+/****************************/
+
+.accordion-porfolios {
+    border: 1px solid #00b0ff;
+}
+
+.accordion-porfolios .mdlext-accordion__tabpanel {
+    background-color: rgba(165, 214, 167, 0.4);
+}
+
+.accordion-porfolios .mdlext-accordion__tabpanel {
+    /*min-height: 400px !important;*/
+}
+
+.accordion-porfolios .mdl-dialog__content {
+    overflow: auto;
+    height: 80%;
+}
+
+.mdl-dialog__content_scroll {
+    overflow: auto;
+    height: 80%;
+}
+
+@media (min-width: 482px) AND (max-width: 895px) {
+
+    header.demo-header .mdl-layout__header-row > .mdl-layout-title {
+        padding-top: 3px;
+        font-size: 19px;
+    }
+
+    header.demo-header .mdl-textfield {
+        margin-top: 0px !important;
+    }
+
+    div.is-focused {
+        float: left;
+        position: absolute;
+        top: 13px;
+        left: 63px;
+    }
+
+}
+
+@media (min-width: 0px) AND (max-width: 480px) {
+
+    header.demo-header .mdl-layout__header-row > .mdl-layout-title {
+        padding-top: 3px;
+        font-size: 14px;
+    }
+
+    header.demo-header .mdl-textfield {
+        margin-top: 0px !important;
+    }
+
+    div.is-focused {
+        float: left;
+        position: absolute;
+        top: 13px;
+        left: 63px;
+    }
+
+    #hdrbtn {
+        top: 32px !important;
+        right: 34px;
+    }
+
+    #dialogTutorial p {
+        font-size: 0.81em;
+    }
+
+}
+
+
+
+/*fix backgroud sidebar*/
+.mCustomScrollBox{
+    background: #ecf0f1;
+}
