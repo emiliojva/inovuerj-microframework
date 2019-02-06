@@ -1,4 +1,6 @@
 RewriteEngine On
+#RewriteBase /
+RewriteRule ^(css|js|images|fonts|layout|includes)($|/) - [L]  # EXCLUI DA INCLUSAO DO INDEX.PHP na frente: /index.php/css
 RewriteCond %{REQUEST_FILENAME}% -s [OR]
 RewriteCond %{REQUEST_FILENAME}% -l [OR]
 RewriteCond %{REQUEST_FILENAME}% -d

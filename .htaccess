@@ -1,0 +1,10 @@
+#RewriteEngine On
+#
+## Map http://www.example.com to /jekyll.
+#RewriteRule ^$ /public/ [L]
+#
+## Map http://www.example.com/x to /jekyll/x unless there is a x in the web root.
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !^/public/
+#RewriteRule ^(.*)$ /public/$1
